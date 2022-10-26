@@ -1,0 +1,5 @@
+.LandingPage {
+  display: flex;
+  height: 90%;
+  flex-wrap: wrap;
+}

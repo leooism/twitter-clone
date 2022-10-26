@@ -1,0 +1,22 @@
+.LeftPart {
+  flex: 1;
+  background-color: rgb(113, 201, 248);
+  min-height: 100vh;
+  background-image: url('https://cdn.svgporn.com/logos/twitter.svg');
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.LeftPart__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+.LeftPart__box__features {
+  margin-bottom: 12px;
+}

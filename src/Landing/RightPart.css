@@ -1,0 +1,78 @@
+.RightPart {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.RightPart__UserField {
+  margin-top: 20px;
+
+  display: flex;
+  justify-content: space-around;
+}
+.username,
+.password {
+  position: relative;
+}
+.username input,
+.password input {
+  user-select: none;
+  outline: none;
+  border: none;
+  padding: 12px 32px;
+  background-color: #e8f0fe;
+  border-bottom: 2px solid skyblue;
+}
+label {
+  position: absolute;
+  top: -20px;
+}
+.submit {
+  padding: 12px;
+  outline: none;
+  border: 2px solid skyblue;
+  background-color: white;
+  border-radius: 43px;
+}
+.submit:focus {
+  background-color: skyblue;
+  color: white;
+}
+
+.password {
+  display: flex;
+  flex-direction: column;
+}
+.password a {
+  font-size: 15px;
+  color: skyblue;
+  text-decoration: none;
+}
+.description {
+  display: grid;
+  height: 100%;
+  place-items: center;
+}
+.Description__box {
+  width: 400px;
+}
+
+.heading h1 {
+  font-size: 30px;
+  word-spacing: 12px;
+}
+.form {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.signup button,
+.login button {
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 12px;
+  background-color: skyblue;
+  margin: 12px;
+  border-radius: 20px;
+}
